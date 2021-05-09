@@ -1,0 +1,557 @@
+
+     
+ 
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #ffffff;
+}
+
+ 
+
+a {
+    color: rgb(0, 0, 0);
+}
+.display {
+    color: rgb(255, 255, 255)
+}
+table {
+border-collapse: collapse;
+border: 2px solid rgb(255, 255, 255);
+letter-spacing: 1px;
+font-size: 0.8rem;
+}
+
+td, th {
+border: 1px solid rgb(0, 0, 0);
+padding: 10px 20px;
+}
+
+th {
+background-color: rgb(7, 8, 34);
+}
+
+td {
+text-align: center;
+background: rgb(0, 0, 0);
+font-size: 14px;
+}
+
+tr:nth-child(even) td {
+background-color: rgb(7, 8, 34);
+}
+
+tr:nth-child(odd) td {
+background-color: rgb(6, 6, 7);
+}
+
+caption {
+padding: 10px;
+}
+#ourmanna-verse {
+    padding: 10px;
+    margin:10px;
+    background: rgba(211, 0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+#mannaverse {
+    color : white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#mannaverse-reference:before {
+    content: "- ";
+}
+#mannaverse-reference {
+    text-align: CENTER;
+    font-size: 18px;
+    color: white;
+}
+#mannaverse-version {
+    color: #ddd;
+}
+
+footer {
+    background: #eee ;
+    padding: 20px ;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100% ;
+
+
+}
+.content {
+    text-align: center; 
+ 
+    
+}
+.verse {
+    width: 100%;
+
+}
+table {
+    text-align: center;
+}
+th {
+    color : white;
+}
+  
+  div {
+    border-radius: 5px;
+   
+    padding: 20px;
+  }
+  button {
+      padding: 20px;
+  }
+  .bd-placeholder-img {
+   
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+ 
+          body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+
+  }
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+  .carousel {
+  margin-bottom:10rem;
+  
+  margin-top:0rem;
+}
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+  z-index: 10;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+  height: 900px;
+  }
+  .carousel-item > img {
+  position:absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+  }
+  .carousel-item > h2 {
+    padding-bottom: 0rem;
+  }
+   h1 {
+     font-size: 100px;
+     margin-bottom: 0rem;
+     margin-top: 0rem;
+    
+   
+   }
+   h2 {
+    font-size: 100px;
+    margin-bottom: 33rem;
+    
+  
+  }
+  h5{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+
+ }
+
+    h4{
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+    }
+   .title {
+     font-size: 180px;
+   }
+
+   .logo{
+    font-size: 30px;
+   }
+
+   
+
+
+
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  }
+  .marketing h2 {
+  font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  }
+
+
+  /* Featurettes
+  ------------------------- */
+
+  .featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+
+  /* Thin out the marketing headings */
+  .featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  }
+
+
+
+
+  html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.column {
+float: left;
+width: 33.3%;
+margin-bottom: 16px;
+padding: 0 5px;
+}
+
+@media screen and (max-width: 650px) {
+.column {
+width: 100%;
+display: block;
+}
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+padding: 0 16px;
+}
+
+.container2::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.titles {
+color: grey;
+}
+
+.button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: rgb(0, 100, 158);
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+.button a {
+color: white;
+text-decoration: none;
+}
+
+.button:hover {
+background-color: #555;
+}
+.buttons {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: rgb(0, 154, 243);
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.buttons:hover {
+background-color: rgb(95, 95, 95);
+}
+
+.but a {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: rgb(255, 255, 255);
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.but a:hover {
+background-color: rgb(143, 143, 143);
+}
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+  @media (min-width: 50em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+  }
+
+  .featurette-heading {
+      font-size: 50px;
+  }
+  }
+
+  @media (min-width: 62em) {
+  .featurette-heading {
+      margin-top: 7rem;
+  }
+  }
+
+   /* footer
+  -------------------------------------------------- */
+
+  footer {
+      text-align: center;
+      overflow: hidden;
+      width: 100%;
+      z-index: 1000;
+    
+  }
+  footer ul > li {  
+      display: inline-block;
+  }
+  footer li {
+    padding: 15px;
+  }
+
+  .container h1{
+    color: aliceblue;
+    font-size: 170px;
+  }
+
+  .formtext
+  {
+      width: 30%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 0%;
+      
+  }
+  .formtextemail
+  {
+      width: 30%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 0%;
+      
+  }
+  .formtextcontact
+  {
+      width: 20%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 0%;
+      
+  }
+  .formtextbirthday
+  {
+      width: 20%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 0%;
+      
+  }
+  .formtextreligion
+  {
+      width: 30%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 0%;
+      
+  }
+  .formtextdate
+  {
+      width: 20%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 0%;
+      
+  }
+  .formtexttime
+  {
+      width: 20%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 0%;
+      
+  }
+
+  .formtextlocation
+  {
+      width: 30%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 0%;
+      
+  }
+
+  label {
+      text-align: left;
+  }
+
+
+
+  .formtext2
+  {
+      width: 100%;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:white;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 2% auto 2%;
+      z-index: 999;
+      margin-top: 45%;
+      margin-bottom: 20%;
+  }
+
+  .formtext3
+  {
+      width: 100%;
+      height:  690px;
+      box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+      background:#0972808f;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 2% auto 2%;
+      text-align: center;
+      z-index: 999;
+      margin-top: 45%;
+      margin-bottom: 20%;
+  }
+
+  
+  .formtext4
+  {
+      width: 100%;
+      height:  780px;
+      box-shadow: 0 0 3px 0 rgba(129, 88, 88, 0.3);
+      background:#0972808f;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 2% auto 2%;
+      text-align: center;
+      z-index: 999;
+      margin-top: 45%;
+     
+  }
+  .signup-btn { 
+      width: 10%;
+      padding : 5px;
+      background: green;
+      border-radius: 12px;
+
+  }
+   .innerform {
+    padding-top: 65px;
+   }
+
+   .formtext p{
+
+     text-align: center;
+     font-size: 30px;
+     color: aliceblue;
+     padding-top: 35px;
+     font-family: cursive;
+     padding-left: 10px;
+     padding-right: 10px;
+   }  
+   .formtext2 p{
+     text-align: center;
+     font-size: 30px;
+     color: aliceblue;
+     padding-top: 45px;
+     font-family: cursive;
+   }
+   form {
+      text-align: center;
+   }
+   .choice{
+    width: 35%;
+    padding : 20px;
+    background: rgb(7, 8, 34);
+    border-radius: 12px;
+    color: white;
+
+
+   }
+
+   .ihov {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .ihov:hover {
+   color:rgba(9, 100, 136, 0.979);
+   text-decoration: none;
+  }
+
+   
